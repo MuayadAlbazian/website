@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Mudrakers Cafe</title>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#band">ABOUT US</a></li>
+        <li><a href="https://www.facebook.com/Mudrakerscafe/photos/a.704974709660069.1073741828.704548359702704/781562922001247/?type=3&theater">MENU</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="contact.php">GROUP RESERVATIONS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="pics/ss3.png" alt="cafe">
+      <div class="carousel-caption">
+      </div> 
+    </div>
+
+  </div>
+
+
+</div>
+
+	<div class="container text-center">
+	<h3>Mudrakers Cafe</h3>
+
+	<p> Coffee Shop in Berkeley, CA</p>
+
+</div>
+
+<div class= "container text-center">
+	<h3>ABOUT US</h3>
+
+	<p> Mudrakers Cafe originated in 2008 and is a family owned coffee shop. We take pride in using the highest ingredients around. Everything we offer is certified organic. Our ...... </p>
+
+</div>
+<img src="pics/outsidecopy.png" style="width: 100%;">
+
+
+<div class="container text-center">
+  <h3>FOOD AND COFFEE</h3>
+  <p>Try from a variety of drinks, salads, sandwiches, and Mediterrian dishes..</p>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p><strong>Salad</strong></p><br>
+      <img src="pics/ss2.png" class="img-circle person" style="height:200px; width:250px;"alt="Random Name">
+    </div>
+    <div class="col-sm-4">
+      <p><strong>Mediterrian Plate</strong></p><br>
+      <img src="pics/food.png" class="img-circle person" style="height:200px; width:250px;" alt="Random Name">
+    </div>
+    <div class="col-sm-4">
+      <p><strong>Espresso</strong></p><br>
+      <img src="pics/coffee.png" class="img-circle person" style="height:200px; width:250px;" alt="Random Name">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script>
+function myMap() {
+var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({position:myCenter});
+marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
+</body>
+
+
+</html>
+

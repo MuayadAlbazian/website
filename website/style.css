@@ -1,0 +1,24 @@
+.container {
+	padding: 80px 120px;
+}
+
+.carousel.inner img {
+
+	background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+	margin:auto;
+
+}
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+.person:hover {
+    border-color: #f1f1f1;
+}
+
